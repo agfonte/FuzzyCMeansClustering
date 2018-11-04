@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: annotations-java8.jar DarculaThemeLib.jar lucene-analyzers
+ -2.4.0.jar lucene-core-2.4.0.jar tika-app-1.2.jar
+Main-Class: com.uclv.gui.MainGUI
+

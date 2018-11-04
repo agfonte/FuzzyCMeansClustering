@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="15.384615384615387" y="302.5384615384616">com.uclv.gui.LabelPropertyChange</node>
+    <node x="265.0" y="109.0">com.uclv.gui.TableModelMFs</node>
+    <node x="197.0" y="304.0769230769231">com.uclv.clustering.Util</node>
+    <node x="418.0" y="109.0">com.uclv.gui.TableModelDocs</node>
+    <node x="93.04479166666664" y="0.0">com.uclv.clustering.DataPoint</node>
+    <node x="587.0" y="188.0">com.uclv.lucene_analysis.LuceneIndexer</node>
+    <node x="73.29670138888889" y="188.0">com.uclv.clustering.FCM</node>
+    <node x="470.2967013888889" y="287.0">com.uclv.gui.MainGUI</node>
+    <node x="140.0" y="109.0">com.uclv.clustering.IndexValue</node>
+    <node x="0.0" y="109.0">com.uclv.clustering.DataHolder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.uclv.gui.MainGUI" target="com.uclv.gui.TableModelDocs">
+      <point x="-5.875" y="-14.5" />
+      <point x="511.4217013888889" y="237.0" />
+      <point x="486.5" y="237.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.uclv.clustering.FCM" target="com.uclv.clustering.DataHolder">
+      <point x="-14.599999999999994" y="-14.5" />
+      <point x="95.19670138888893" y="158.0" />
+      <point x="81.0" y="158.0" />
+      <point x="27.0" y="14.5" />
+    </edge>
+    <edge source="com.uclv.gui.MainGUI" target="com.uclv.lucene_analysis.LuceneIndexer">
+      <point x="29.375" y="-14.5" />
+      <point x="546.6717013888889" y="257.0" />
+      <point x="618.0" y="257.0" />
+      <point x="-31.0" y="14.5" />
+    </edge>
+    <edge source="com.uclv.clustering.DataHolder" target="com.uclv.clustering.DataPoint">
+      <point x="0.0" y="-14.5" />
+      <point x="54.0" y="59.0" />
+      <point x="109.71145833333333" y="59.0" />
+      <point x="-33.33333333333333" y="14.5" />
+    </edge>
+    <edge source="com.uclv.clustering.FCM" target="com.uclv.clustering.DataPoint">
+      <point x="14.599999999999994" y="-14.5" />
+      <point x="124.39670138888889" y="168.0" />
+      <point x="129.5" y="168.0" />
+      <point x="129.5" y="89.0" />
+      <point x="143.04479166666664" y="89.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.uclv.gui.MainGUI" target="com.uclv.clustering.FCM">
+      <point x="-29.375" y="-14.5" />
+      <point x="487.9217013888889" y="257.0" />
+      <point x="128.0467013888889" y="257.0" />
+      <point x="18.25" y="14.5" />
+    </edge>
+    <edge source="com.uclv.gui.MainGUI" target="com.uclv.clustering.DataPoint">
+      <point x="17.625" y="-14.5" />
+      <point x="534.9217013888889" y="247.0" />
+      <point x="576.5" y="247.0" />
+      <point x="576.5" y="59.0" />
+      <point x="187.4892361111111" y="59.0" />
+      <point x="44.44444444444446" y="14.5" />
+    </edge>
+    <edge source="com.uclv.gui.MainGUI" target="com.uclv.gui.TableModelMFs">
+      <point x="-17.625" y="-14.5" />
+      <point x="499.6717013888889" y="247.0" />
+      <point x="331.5" y="247.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.uclv.clustering.FCM" target="com.uclv.clustering.IndexValue">
+      <point x="29.19999999999999" y="-14.5" />
+      <point x="138.99670138888888" y="168.0" />
+      <point x="192.5" y="168.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.uclv.gui.TableModelMFs" target="com.uclv.clustering.DataPoint">
+      <point x="0.0" y="-14.5" />
+      <point x="331.5" y="89.0" />
+      <point x="154.15590277777775" y="89.0" />
+      <point x="11.111111111111114" y="14.5" />
+    </edge>
+    <edge source="com.uclv.gui.TableModelDocs" target="com.uclv.clustering.DataPoint">
+      <point x="0.0" y="-14.5" />
+      <point x="486.5" y="79.0" />
+      <point x="165.26701388888887" y="79.0" />
+      <point x="22.22222222222223" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="333.076923076923" y="201.61538461538458" />
+  <SelectedNodes>
+    <node>com.uclv.gui.LabelPropertyChange</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

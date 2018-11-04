@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="FuzzyCMeansClustering:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FuzzyCMeansClustering_jar</output-path>
+    <root id="root">
+      <element id="archive" name="FuzzyCMeansClustering.jar">
+        <element id="module-output" name="FuzzyCMeansClustering" />
+      </element>
+      <element id="file-copy" path="$APPLICATION_HOME_DIR$/redist/annotations-java8.jar" />
+      <element id="library" level="project" name="DarculaThemeLib" />
+      <element id="library" level="project" name="lucene-analyzers-2.4.0" />
+      <element id="library" level="project" name="lucene-core-2.4.0" />
+      <element id="library" level="project" name="tika-app-1.2" />
+    </root>
+  </artifact>
+</component>
